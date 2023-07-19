@@ -107,11 +107,11 @@ my_dictionary["number"] = [12, 34, 52]
 my_dictionary["favorit_foods"] = [{"name":"pizza"}, {"name":"hamburger"}]
 my_dictionary
 
-# get
+## get
 print(my_dictionary["name"])
 print(my_dictionary.get("age", "Unknown"))
 
-# key, value
+## key, value
 print(my_dictionary.items())
 print(my_dictionary.keys())
 print(my_dictionary.values())
@@ -121,3 +121,25 @@ for key, value in my_dictionary.items():
 
 # 
 print("age" in my_dictionary)
+
+# set
+my_set = {1, 2, 3, 4, 5}
+
+## set -> list, list -> set이 가능하다
+## set에는 중복된 요소가 포함될 수 없다.
+print(list(my_set))
+
+example = "hello"
+my_set = set(example)
+print(my_set)
+
+## set에 요소 추가
+my_set.add(6)
+print(my_set)
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7}
+
+print(set1 & set2)
+print(set1 | set2)
+print(set1 - set2)
