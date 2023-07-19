@@ -155,5 +155,3 @@ else:
     A도 B도 아닌 경우 수행할 표현
     """
 
-score = input("점수가 몇 점인가요?")
-print(score)
