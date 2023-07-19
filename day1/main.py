@@ -145,7 +145,7 @@ print(set1 | set2)
 print(set1 - set2)
 
 
-# if-else
+# if-else문
 """
 if A:
     조건이 참일때 수행할 표현
@@ -155,3 +155,52 @@ else:
     A도 B도 아닌 경우 수행할 표현
     """
 
+# while문
+a = 5
+
+while a > 0:
+    print('hello')
+    a -= 1
+
+print("a : ", a)
+
+a = -5
+while a < 0:
+    print("a is below 0")
+    a += 1
+
+
+# for문
+my_list = ["A", "B", "C", "D"]
+for letter in my_list:
+    print(letter)
+
+for i in range(5):
+    print(i)
+"""
+.js
+for (let i = 0; i<5; i++){
+
+}
+"""
+for i in range(len(my_list)):
+    print(my_list[i])
+
+# Function
+## js와 유사함
+"""
+# js.
+function functionName(){
+
+}
+
+
+# python
+def function_name():
+    print(~)
+"""
+
+def say_hello(name):
+    print("hello ", name)
+
+say_hello("Mike")
