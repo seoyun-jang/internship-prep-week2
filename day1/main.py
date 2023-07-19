@@ -143,3 +143,17 @@ set2 = {4, 5, 6, 7}
 print(set1 & set2)
 print(set1 | set2)
 print(set1 - set2)
+
+
+# if-else
+"""
+if A:
+    조건이 참일때 수행할 표현
+elif B:
+    조건이 참일 때 수행할 표현 (A는 False)
+else:
+    A도 B도 아닌 경우 수행할 표현
+    """
+
+score = input("점수가 몇 점인가요?")
+print(score)
