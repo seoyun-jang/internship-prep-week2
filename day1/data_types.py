@@ -39,14 +39,45 @@ print(len(a))
 print(len(b))
 
 print(a[12])
+print(a[0:0])
+print(a[:5])
+print(a[6:])
 
-# string에서 특정 문자열 바꾸기
+print(a.index("w"))
 
+my_list = [1, 2, 5.5, "hello", [5, 6, 7, 8]]
+print(my_list[3:6])
 
-# string의 길이를 구하고 중복되는 문자의 갯수 출력하기
-txt = "lalalalalalalalalala"
-print(len(txt))
-print(txt.count("a"))
+class_name = "chatGPT API"
+print(class_name[4:])
+print(class_name[:7])
 
+find_str = "python!"
 
+# find index
+print(find_str.find("y"))
+
+print(".".join(find_str))
+
+# 문자 변환
+
+## 대문자/소문자 변환
+title = "PyThoN ClASs"
+
+print(title.lower()) # 대문자 -> 소문자
+print(title.upper()) # 소문자 -> 대문자
+
+## 양쪽 공백 지우기
+print(title.strip()) 
+
+# replace : 문자 대체(바꾸기)
+quote = "Life is too short"
+
+print(quote.replace("too", "very"))
+print(quote.replace("o", "0"))
+print(quote.replace(" ",""))
+
+# split : 문자 분해
+# default .seplit(" ")
+print(quote.split())
 
