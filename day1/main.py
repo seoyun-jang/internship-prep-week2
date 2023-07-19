@@ -89,3 +89,35 @@ a.pop() # defualt : list의 마지막 요소
 print(a)
 
 a.pop(0)
+
+# dictionary
+## dictionary 선언
+my_dictionary = dict()
+my_dictionary = {}
+print(my_dictionary)
+
+
+### my_dictionary = {"key" : "value"}
+my_dictionary = {"name" : "David",
+                 "age" : 34}
+
+## dictionary 요소 추가하기
+my_dictionary["location"] = "seoul"
+my_dictionary["number"] = [12, 34, 52]
+my_dictionary["favorit_foods"] = [{"name":"pizza"}, {"name":"hamburger"}]
+my_dictionary
+
+# get
+print(my_dictionary["name"])
+print(my_dictionary.get("age", "Unknown"))
+
+# key, value
+print(my_dictionary.items())
+print(my_dictionary.keys())
+print(my_dictionary.values())
+for key, value in my_dictionary.items():
+    print("key : ", key)
+    print("value : ", value)
+
+# 
+print("age" in my_dictionary)

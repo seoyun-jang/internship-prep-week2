@@ -38,3 +38,7 @@ color = ["red", "orange", "yellow", "green",
 
 color.insert(1, "pink")
 print(color)
+
+# 딕셔너리 a에서 B에 해당하는 값을 출력하기
+a = {'A':90, 'B':80, 'C':70, 'D':60}
+a.get("B")
