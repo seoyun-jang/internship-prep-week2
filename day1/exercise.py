@@ -15,7 +15,26 @@ print(txt.count("a"))
 phone_number = "010-1234-5678"
 phone_number.replace("-"," ")
 
+" ".join(phone_number.split("-"))
+
 # 문자열 출력하기
 a = "hello"
 b = "python"
 print(a + "! " + b)
+
+# 리스트에서 특정 문자를 제거하고 출력하기
+color = ["red", "pink", "orange", "yellow", "green",
+          "blue", "purple", "black", "white"]
+
+color.pop(4)
+print(color)
+
+color.remove("green")
+print(color)
+
+# 리스트 항목에 특정 문자를 추가하고 출력하기
+color = ["red", "orange", "yellow", "green",
+          "blue", "purple", "black", "white"]
+
+color.insert(1, "pink")
+print(color)
