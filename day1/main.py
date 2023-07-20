@@ -200,7 +200,10 @@ def function_name():
     print(~)
 """
 
-def say_hello(name):
-    print("hello ", name)
+# def say_hello(name):
+#     if not isinstance(my_list, list):
+#         print("Error")
+#         return
+#     for name in my_list:
 
-say_hello("Mike")
+# say_hello("Mike")

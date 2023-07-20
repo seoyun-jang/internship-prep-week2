@@ -86,3 +86,5 @@ elif score >= 60 and score < 70:
     print("당신은 D등급입니다.")
 else:
     print("당신은 F등급입니다.")
+
+    
