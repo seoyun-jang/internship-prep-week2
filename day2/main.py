@@ -41,3 +41,52 @@ names = ["Lukas", "David", "Mike", "Yoon"]
 for i, name in enumerate(names):
     print(name, f"lieks color {colors[i]}")
 
+float(5)
+
+bool(1)
+bool(0)
+
+list("python")
+ex = list((1, 2, 3))
+
+len(ex)
+
+str(3)
+
+type(str(3))
+
+type([])
+
+import os
+os.getcwd()
+os.name
+
+import time
+
+## return to unix time
+time.time()
+
+def million_operations_function():
+    start = time.time()
+    my_list = []
+    for i in range(0,10000000):
+        my_list.append(0)
+
+    end = time.time()
+    print(end - start)
+
+
+import datetime
+now = datetime.datetime.now()
+
+now.month
+now.day
+now.hour
+now.minute
+now.second
+now.microsecond
+
+import random
+
+random.randint(0, 10)
+
