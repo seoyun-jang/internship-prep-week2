@@ -7,7 +7,6 @@ source venv/Scripts/activate # venv 실행
 
 """
 
-
 # pip install requests
 
 import requests
