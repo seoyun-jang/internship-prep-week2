@@ -1,4 +1,4 @@
-# intership-prep-week2
+# internship-prep-week2
 
 ## CHAT-GPT를 이용한 간단한 챗봇구현 (2023.07.24)
 - user의 질문에 따른 Answer 및 이어지는 질문하기
